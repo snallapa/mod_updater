@@ -9,7 +9,7 @@ URL = 'https://github.com/snallapa/mod_updater'
 EMAIL = 'sahith.reddy@gmail.com'
 AUTHOR = 'Sahith Nallapareddy'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.0'
+VERSION = '0.2.0'
 
 REQUIRED = [
     'requests', 'tqdm'
