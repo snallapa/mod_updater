@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 NAME = 'mod_updater'
 DESCRIPTION = 'Automatically update forge minecraft mods'
-URL = 'https://github.com/me/myproject'
+URL = 'https://github.com/snallapa/mod_updater'
 EMAIL = 'sahith.reddy@gmail.com'
 AUTHOR = 'Sahith Nallapareddy'
 REQUIRES_PYTHON = '>=3.6.0'
