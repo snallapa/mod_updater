@@ -25,5 +25,5 @@ class DownloadSource(ABC):
 
     @classmethod
     @abstractmethod
-    def parse(cls, json):
+    def parse(cls, json, path, mc_version):
         raise NotImplementedError()

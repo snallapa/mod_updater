@@ -7,6 +7,7 @@ class TestParser(unittest.TestCase):
 
     def test_parse_sources(self):
         config = {
+            "mc_version": "1.16.5",
             "mods_dir": "mods",
             "mods": [
                 {
@@ -26,6 +27,7 @@ class TestParser(unittest.TestCase):
 
     def test_parse_fails_invalid_source(self):
         config = {
+            "mc_version": "1.16.5",
             "mods_dir": "mods",
             "mods": [
                 {
@@ -37,6 +39,7 @@ class TestParser(unittest.TestCase):
 
     def test_parse_reads_file(self):
         config = {
+            "mc_version": "1.16.5",
             "mods_dir": "mods",
             "mods": [
                 {

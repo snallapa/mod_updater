@@ -16,7 +16,7 @@ class GithubSource(DownloadSource):
         self.download_file(download_response, f"{self._path}/{name}")
 
     @classmethod
-    def parse(cls, json, path):
+    def parse(cls, json, path, mc_version):
         for arg in cls.REQUIRED_ARGS:
             if arg not in json:
                 raise Exception("Missing required arg ", arg, "in ", json)
